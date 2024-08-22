@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dice Game</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <img src="iconDice.png" alt="iconDice.png">
+      <h1>DICE ROLLER 🎲</h1>
+       <label for="numOfDice"># Num of Dice to Roll</label><br>
+       <input type="number" id="numOfDice" placeholder="0" required>
+       <p id="errorDisplay">Roll as much as you can!! I wish you Luck🍀!! </p>
+       <button id="rollDice" onclick="rollDice()">Roll Dice</button>
+       <div id="result"> </div>
+       <div class="imageContainer">
+        <div id="images"> </div> 
+       </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
