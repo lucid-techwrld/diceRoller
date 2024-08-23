@@ -118,3 +118,10 @@ img {
     transform: rotateX(360deg) rotateY(360deg);
   }
 }
+
+
+.imageContainer p {
+  font-size: 20px;
+  color: black;
+  margin-top: 10px;
+}

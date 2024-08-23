@@ -17,13 +17,13 @@
 <body>
   <div class="container">
     <div class="cube">
-  <div class="face front"><img src="1.png" alt="Front"></div>
-  <div class="face back"><img src="2.png" alt="Back"></div>
-  <div class="face left"><img src="3.png" alt="Left"></div>
-  <div class="face right"><img src="4.png" alt="Right"></div>
-  <div class="face top"><img src="5.png" alt="Top"></div>
-  <div class="face bottom"><img src="6.png" alt="Bottom"></div>
-</div>
+      <div class="face front"><img src="1.png" alt="Front"></div>
+      <div class="face back"><img src="2.png" alt="Back"></div>
+      <div class="face left"><img src="3.png" alt="Left"></div>
+      <div class="face right"><img src="4.png" alt="Right"></div>
+      <div class="face top"><img src="5.png" alt="Top"></div>
+      <div class="face bottom"><img src="6.png" alt="Bottom"></div>
+    </div>
       <h1>DICE ROLLER 🎲</h1>
        <label for="numOfDice"># Num of Dice to Roll</label><br>
        <input type="number" id="numOfDice" placeholder="0" required>
@@ -31,8 +31,9 @@
        <button id="rollDice" onclick="rollDice()">Roll Dice</button>
        <div id="result"> </div>
        <div class="imageContainer">
-        <div id="images"> </div> 
+        <div id="images"> </div>
        </div>
+       <span id="totalDice">0</span>
   </div>
   <script src="main.js"></script>
 </body>
